@@ -4,17 +4,17 @@
 
 This prototype implements a **Retrieval-Augmented Generation (RAG)**
 system using **LangChain**, **FastEmbed embeddings**, and a **local LLM
-backend** (e.g., Qwen).\
+backend** (e.g., Qwen).
 The system allows a user to:
 
-1.  **Upload a resume**\
-2.  **Paste a job description**\
-3.  **Embed & chunk the resume**\
-4.  **Retrieve the most relevant resume segments**\
+1.  **Upload a resume**
+2.  **Paste a job description**
+3.  **Embed & chunk the resume**
+4.  **Retrieve the most relevant resume segments**
 5.  **Generate LLM-powered tailored outputs**, such as:
-    -   Alignment summaries\
-    -   Customized bullet points\
-    -   Resume improvements\
+    -   Alignment summaries
+    -   Customized bullet points
+    -   Resume improvements
     -   Role-specific messaging
 
 The notebook also includes **UI widgets** for interaction and a
@@ -24,10 +24,10 @@ The notebook also includes **UI widgets** for interaction and a
 
 ## 📦 Features
 
--   Local LLM usage\
--   FastEmbed vector embeddings\
--   LangChain RAG pipeline\
--   UI widgets for resume & job description\
+-   Local LLM usage
+-   FastEmbed vector embeddings
+-   LangChain RAG pipeline
+-   UI widgets for resume & job description
 -   End-to-end system test
 
 ------------------------------------------------------------------------
